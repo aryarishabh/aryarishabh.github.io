@@ -3,7 +3,7 @@ title: Rishbah Arya
 subtitle: Homepage
 email: rishabharya32@gmail.com
 description: Arya's blog<br /> I live in Mumbai
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: 
 author:
 street_address: Room no. 151, Hostel 3 , IIT Bombay
