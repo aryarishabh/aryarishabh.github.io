@@ -18,16 +18,16 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+# 500px_url:
+facebook_url: https://www.facebook.com/rishabh.arya.9822924
+github_url: https://github.com/arya2331
+# gitlab_url: https://gitlab.com/u/andrewbanchich
+# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://www.instagram.com/rishabharya6/
+linkedin_url: https://www.linkedin.com/in/rishabh-arya-99a37a145/
+# pinterest_url:
+# slack_url:
+# twitter_url: https://twitter.com/andrewbanchich
 
 # build settings
 markdown: kramdown
