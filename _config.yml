@@ -1,36 +1,65 @@
-# site settings
-title: Rishbah Arya
-subtitle: Homepage
-email: rishabharya32@gmail.com
-description: Arya's blog<br /> I live in Mumbai
-baseurl: # the subpath of your site, e.g. /blog
-url: aryarishabh.github.io
-author:
-street_address: Room no. 151, Hostel 3 , IIT Bombay
-city: Mumbai
-state: Maharastra,
-zip_code: 400076
-country: India
-phone: 8209551718
+# Site settings
+title: DentistSmile | Dental Jekyll Theme
+description: "A responsive Jekyll theme for dental clinics."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: svg/min/logo.svg
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: DentistSmile
+    hero_description: A responsive Jekyll theme for dental clinics.
 
-# social settings
-# 500px_url:
-facebook_url: https://www.facebook.com/rishabh.arya.9822924
-github_url: https://github.com/arya2331
-# gitlab_url: https://gitlab.com/u/andrewbanchich
-# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://www.instagram.com/rishabharya6/
-linkedin_url: https://www.linkedin.com/in/rishabh-arya-99a37a145/
-# pinterest_url:
-# slack_url:
-# twitter_url: https://twitter.com/andrewbanchich
+# Contact form
+api_token: # Enter API token here
 
-# build settings
+# Contact info
+contact:
+    phone: 932 50 540
+    emergency: 931 53 234
+    email: contact@yoursite.com
+    address: Von schroeders 273, <br> Viña del mar - Chile
+
+# Opening hours
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Von schroeders 273, Viña del mar, Chile
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
+feed: yes
+
+# Footer
+copyright: © 2015 DentistSmile - All rights reserved
+
+# Build settings
 markdown: kramdown
 
-sass:
-  style: compressed
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
