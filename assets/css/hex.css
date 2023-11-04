@@ -1,0 +1,87 @@
+/* @color: #27aae1;
+.hex {
+    margin-top: 30px;
+    width: 104px;
+    height: 90px;
+    background-color: #F0EEFF;
+    border-color: rgba(240, 238, 255, 1);
+    position: relative;
+    display: inline-block;
+}
+.hex:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+}
+.hex:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -30px;
+    border-top: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+} */
+
+.hexagon {
+    height: 200px;
+    width: 120px;
+    background: #F0EEFF;
+    position:relative;
+    left:50px;
+    box-sizing: border-box;
+    border-bottom:solid rgba(0, 0, 0, 1);
+    border-top:solid rgba(0, 0, 0, 1);
+  }
+  .hexagon::before, .hexagon::after {
+    content:"";
+    position: absolute;
+    height: 0;
+    width: 0; 
+    top:0;
+    /* half height */
+    border-top: 100px solid transparent ;
+    border-bottom: 100px solid transparent; 
+    /* border-color: black; */
+  }
+  .hexagon::before {
+    left:-50px;
+    border-right:50px solid #F0EEFF; 
+    /* border-color: black; */
+  }
+  .hexagon::after {
+    right:-50px;
+    border-left:50px solid #F0EEFF; 
+    /* border-color: black; */
+  }
+
+  .hexagon2{
+    position: relative;
+  width: 100px;
+  height: 57.74px;
+  background-color: #fff; /* Set the hexagon background color */
+  border: 2px solid #00f; /* Set the hexagon border color */
+  transform: rotate(30deg);
+  margin: 50px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  }
+
+  .hexagon.inner {
+    background-color:blue;
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    transform: scale(.8, .8);
+    z-index:1;
+}
+.hexagon.inner:before {
+    border-bottom: 60px solid blue;
+}
+.hexagon.inner:after {
+    border-top: 60px solid blue;
+}
